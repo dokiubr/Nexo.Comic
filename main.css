@@ -1,0 +1,52 @@
+:root{
+    --cor-fundo: oklch(14.5% 0 0);
+    --cor-primearia: oklch(43.9% 0 0);
+    --cor-texto: oklch(92.3% 0.003 48.717);
+    --cor-segundario: oklch(29.1% 0.149 302.717);
+}
+.perfil {
+    width: 100vw;
+    justify-content: flex-end;
+}
+.fundo {
+    background-image: url(https://pbs.twimg.com/media/G0rnYc3XcAEOwMC?format=jpg&name=large);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 400px;
+    width: 100vw;
+    border-bottom: 1px var(--cor-primearia) solid;
+}
+.interfundo{
+    width: 100vw;
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.informacao{
+    background-color: var(--cor-fundo);
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: var(--cor-texto);
+    font-size: 20px;
+    border: 1px var(--cor-primearia) solid;
+    border-bottom: none;
+
+
+    padding: 10px;
+    margin-right: 50px;
+    display: flex;
+    height: 79px;
+    width: 600px;
+}
+.icon {
+    height:80px;
+    width: 80px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
