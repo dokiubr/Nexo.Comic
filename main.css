@@ -5,7 +5,7 @@
     --cor-segundario: oklch(29.1% 0.149 302.717);
 }
 .perfil {
-    width: 100vw;
+    width: 100%;
     justify-content: flex-end;
 }
 .fundo {
@@ -15,17 +15,15 @@
     background-size: cover;
     
     height: 400px;
-    width: 100vw;
+    width: 100%;
     border-bottom: 1px var(--cor-primearia) solid;
 }
 .interfundo{
-    width: 100vw;
+    width: 100%;
     position: relative;
     bottom: 100px;
     display: flex;
     justify-content: flex-end;
-    
-
 }
 .informacao{
     background-color: var(--cor-fundo);
