@@ -13,17 +13,18 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     
-    height: 400px;
+    height: 30rem;
     width: 100%;
     border-bottom: 1px var(--cor-primearia) solid;
 }
 .interfundo{
-    width: 100%;
-    position: relative;
-    bottom: 100px;
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    bottom: 6.2rem;
+    
 }
 .informacao{
     background-color: var(--cor-fundo);
